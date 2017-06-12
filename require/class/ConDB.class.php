@@ -14,9 +14,6 @@ abstract class ConDB{
 	public function getConn()
 	{return $this->setConn();}
 }
-$vle = new Validaemail;
-var_dump($vle->setValidaEmail('gilmar@hotmail'));
-
 
 
 ?>

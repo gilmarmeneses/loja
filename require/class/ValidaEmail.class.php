@@ -13,7 +13,7 @@ class ValidaEmail
 		return 'Email invalido';
 		else
 		if(!in_array(strrchr($email, '.'), $ext))
-		return 'Email invalido 2'
+		return 'Email invalido 2';
 		else
 		return $email;
 

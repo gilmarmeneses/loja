@@ -15,7 +15,7 @@ class CRUD extends ConDB
 	}
 	public function select($fields,$table,$cond,$exec)
 	{
-		$this->prepExec('SELECT '.$fields.' FROM '.$table.' '.$cond.' ',$exec);
+		$this->prepExec('SELECT '.$fields.' FROM '.$table.' '.$cond.'',$exec);
 		return $this->query;
 		
 	}

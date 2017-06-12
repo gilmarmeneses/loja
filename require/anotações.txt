@@ -1,0 +1,6 @@
+#$_cripto = md5($param); 32 caracteres 
+#$_cripto = sha1($param); 40 caracteres
+#$_cripto = hash('sha256',$param); sha256 - 64 caracteres
+#$_cripto = hash('sha384',$param); sha384 - 96 caracteres
+#$_cripto = hash('sha512',$param); sha512 - 128 caracteres
+#$_cripto = hash('whirlpool',$param); whirlpool - 128 caracteres
