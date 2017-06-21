@@ -1,6 +1,4 @@
 <?php
-function __autoload($class){require_once"{$class}.class.php";}
-
 abstract class ConDB{
 
 	private $cnx;

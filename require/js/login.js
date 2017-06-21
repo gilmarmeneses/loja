@@ -7,6 +7,6 @@ function fctLogin() {
 		if(res)
 			$('main form span').html(res).css({color:'#f00'});
 		else
-			location.href='/loja/admin/index.php';
+			location.href='../../admin/index.php';
 	});
 }
